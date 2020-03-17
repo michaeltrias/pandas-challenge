@@ -21,7 +21,7 @@ total_players_df = total_players_df.DataFrame({"Total Players" : total_players})
 print(total_players_df)
 '''
 
-
+ 
 #Player Count
 total_players = (len(purchase_df["SN"].value_counts()))
 
